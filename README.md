@@ -14,6 +14,26 @@ The application also includes a dashboard for analyzing a dataset of movie revie
 - Generate word clouds for positive and negative reviews
 - Interactive web interface using Streamlit
 
+## Application Screenshots
+
+### Single Review Sentiment Analysis
+
+The application calculates the polarity of a movie review and classifies it as Positive, Negative, or Neutral.
+
+![Single Review Sentiment Analysis](screenshots/sentiment-analysis.png)
+
+### Dataset Analytics
+
+The dashboard displays the analyzed movie reviews along with their polarity scores, sentiment classifications, and overall sentiment distribution.
+
+![Dataset Analytics](screenshots/dataset-dashboard.png)
+
+### Review Word Clouds
+
+Word clouds provide a visual representation of frequently occurring words in positive and negative movie reviews.
+
+![Review Word Clouds](screenshots/wordcloud.png)
+
 ## Sentiment Classification
 
 The project uses TextBlob to calculate the polarity score of each review.
